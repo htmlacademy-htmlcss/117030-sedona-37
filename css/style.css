@@ -126,23 +126,6 @@ body {
   color: #333333;
 }
 
-.advantages-title-light {
-  color: #ffffff;
-}
-
-.advantages-text-light {
-  color: #ffffff;
-}
-
-/* .item-light {
-  background: rgba(131, 179, 211, 0.12);
-}
-
-.item-dark-light {
-
-  background-color: #83b3d3;
-} */
-
 .services-content-home {
   background-image: url("../images/svg/advantage-icon-home.svg");
   background-repeat: no-repeat;
