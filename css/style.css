@@ -528,7 +528,7 @@ img {
   padding: 0 70px;
 }
 
-.hotel-list {
+.hotels-list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -596,6 +596,13 @@ img {
   padding: 6px;
 }
 
+.pagination-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+}
+
 .pagination-link {
   font-weight: 700;
   font-size: 20px;
@@ -633,7 +640,22 @@ img {
   border-color: transparent;
 }
 
+.page-footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 70px 30px;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 142px;
+}
+
+
 .phone {
+  margin: 0 auto;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
@@ -641,7 +663,6 @@ img {
   text-decoration: none;
 }
 
+.logo-dev {
 
-/* .page-footer {
-  background-color: #7db54f;
-} */
+}
