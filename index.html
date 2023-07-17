@@ -17,7 +17,7 @@
   <body>
     <div class="wrapper">
 
-      <header class="page-header">
+      <header class="page-header" data-test="header">
 
         <nav class="nav">
           <a class="logo" href="index.html" aria-current="page">
@@ -54,7 +54,7 @@
 
       </header>
 
-      <main class="main-container main">
+      <main class="main-container main" data-test="hero">
 
         <section class="hero">
           <h1 class="visually-hidden">Седона.</h1>
@@ -63,7 +63,7 @@
           </div>
         </section>
 
-        <section class="advantages">
+        <section class="advantages" data-test="advantages">
           <h2 class="visually-hidden">Преимущества.</h2>
           <div class="description">
             <h2 class="description-title page-title">Седона — небольшой городок в Аризоне, <br>заслуживающий большего!</h2>
@@ -117,7 +117,7 @@
             </li>
           </ul>
         </section>
-        <section class="services">
+        <section class="services" data-test="service">
           <div class="description description-services">
             <h2 class="description-title page-title">Приезжайте в Седону отдохнуть <br>в комфорте и уюте!</h2>
             <p class="description-text page-text">Опытный персонал и качественное обслуживание!</p>
@@ -147,13 +147,13 @@
           </ul>
         </section>
 
-        <section class="search">
+        <section class="search" data-test="search">
           <h2 class="search-title page-title">Заинтересовались?</h2>
           <p class="search-text page-text">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           <a class="button search-button button-modal" href="catalog.html">Поиск гостиницы в Седоне</a>
         </section>
 
-        <section class="subscribe subscribe-home">
+        <section class="subscribe subscribe-home" data-test="subscribe">
           <h2 class="subscribe-title page-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-text page-text">Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
 
@@ -166,7 +166,7 @@
 
       </main>
 
-      <footer class="page-footer">
+      <footer class="page-footer" data-test="footer">
         <ul class="social-list list-reset">
           <li class="social-item">
             <a class="social-link" href="https://vk.com/htmlacademy">
@@ -215,7 +215,7 @@
 
       <!-- Модальное окно -->
       <!-- класс modal-container-close закрывает модальное окно. -->
-      <div class="modal-container modal-container-close">
+      <div class="modal-container modal-container-close" data-test="modal">
         <div class="modal modal-search">
           <button class="modal-close-button" type="button">
             <span class="visually-hidden">Закрыть модальное окно</span>
